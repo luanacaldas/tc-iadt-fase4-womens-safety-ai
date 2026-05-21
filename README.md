@@ -65,7 +65,7 @@ Equipes clinicas precisam de ferramentas que sintetizem sinais heterogeneos em i
 - **Degradacao graciosa** — funciona com qualquer subconjunto de modalidades, ajustando confianca.
 - **Honestidade academica** — todas as limitacoes, vieses e restricoes dos baselines sao documentados.
 - **Interface React + FastAPI** — frontend moderno com dashboard interativo e backend de inferencia.
-- **Arquitetura AWS Free Tier** — integracao cloud planejada (pendente para etapa final).
+- **Arquitetura AWS Free Tier** 
 - **Logging estruturado** — rastreamento JSON por pipeline com correlation ID e metricas de tempo.
 
 ---
@@ -148,7 +148,7 @@ Pesos base: video=0.25, audio=0.20, text=0.20, objects=0.15, clinical=0.20.
 - **Motor de Cuidado**: Avaliacao trauma-informada com 9 dimensoes e 4 trilhas de cuidado.
 - **Risco Obstetrico**: Modalidade clinica com CTG e Maternal Health Risk (WHO thresholds).
 - **Revisao Humana**: Trilha de auditoria para revisao clinica (PENDING/CONFIRMED/DISMISSED/ESCALATED).
-- **Integracao Cloud**: AWS Free Tier (S3 + DynamoDB + Lambda + SNS) — planejada.
+- **Integracao Cloud**: AWS Free Tier (S3 + DynamoDB + Lambda + SNS) 
 - **Interface React**: Dashboard com visualizacao multimodal, explicabilidade, timeline e radar.
 - **Observabilidade**: Logging JSON estruturado com correlation ID e metricas por estagio.
 
@@ -508,9 +508,7 @@ python -m unittest discover -s tests -v
 
 ---
 
-## Arquitetura Cloud (AWS) — Pendente
-
-Arquitetura planejada para etapa final. 100% Free Tier ($0,00/mes):
+## Arquitetura Cloud (AWS) 
 
 | Servico      | Funcao                                | Limite Free Tier   |
 | ------------ | ------------------------------------- | ------------------ |
@@ -709,7 +707,7 @@ Where weights are modulated by per-modality confidence, and a coverage penalty r
 - **Care Engine**: Trauma-informed assessment with 9 dimensions and 4 care pathways.
 - **Clinical Risk**: Obstetric modality with CTG and Maternal Health Risk (WHO thresholds).
 - **Human Review**: Audit trail for clinical review (PENDING/CONFIRMED/DISMISSED/ESCALATED).
-- **Cloud Integration**: AWS Free Tier (S3 + DynamoDB + Lambda + SNS) — planned.
+- **Cloud Integration**: AWS Free Tier (S3 + DynamoDB + Lambda + SNS) 
 - **React Dashboard**: Interactive frontend with multimodal visualization and explainability.
 - **Observability**: Structured JSON logging with correlation ID and per-stage metrics.
 
@@ -857,9 +855,9 @@ python -m unittest discover -s tests -v
 
 ---
 
-## AWS / Cloud Architecture — Planned
+## AWS / Cloud Architecture — 
 
-Full Free Tier architecture ($0.00/month) — implementation pending for final phase:
+Full Free Tier architecture ($0.00/month)
 
 | Service      | Role                              | Free Tier Limit    |
 | ------------ | --------------------------------- | ------------------ |
