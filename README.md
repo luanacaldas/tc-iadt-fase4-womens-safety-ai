@@ -518,7 +518,7 @@ python -m unittest discover -s tests -v
 | DynamoDB     | Indice de relatorios de pacientes     | 25 GB              |
 | SNS          | Alertas por email para equipe clinica | 1.000 emails/mes   |
 
-> **Status:** Arquitetura documentada em `docs/aws_architecture.md`. Implementacao pendente para etapa final.
+> **Status:** Arquitetura documentada em `docs/aws_architecture.md`. 
 
 ---
 
