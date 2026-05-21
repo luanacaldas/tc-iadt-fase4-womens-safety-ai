@@ -569,12 +569,12 @@ python -m unittest discover -s tests -v
 - [x] Integrar 5a modalidade (clinico/obstetrico).
 - [x] Gerar manifests e evidencias para 6 datasets.
 - [x] Treinar e avaliar YOLOv8n no dataset de objetos cortantes (mAP@50: 87.9%, mAP@50-95: 60.6%).
+- [x] Implementar deploy AWS (S3 + DynamoDB + SNS).
 
 ### Proximos passos
 
 - [ ] Substituir lexico de texto por BERTimbau para NLP contextual em portugues.
 - [ ] Adicionar MFCCs e features espectrais para melhorar baseline de emocao por audio.
-- [ ] Implementar deploy AWS (S3 + DynamoDB + SNS).
 - [ ] Solicitar acesso formal a DAIC-WOZ e WEMAC completo para validacao cross-dominio.
 - [ ] Implementar fusao baseada em atencao quando dados multimodais temporalmente alinhados estiverem disponiveis.
 - [ ] Adicionar testes de integracao com fixtures de teste multimodal sinteticas.
